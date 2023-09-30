@@ -5,7 +5,7 @@ const Navbar = () => {
         // useParams();
         <div>
         <nav className="navbar">
-            <h1> Health Center Database Dashboard</h1>
+            <h1> Health Center Database</h1>
             <div className="links">
                 {/* <p>Home</p>
                 <p>Add</p> */}
