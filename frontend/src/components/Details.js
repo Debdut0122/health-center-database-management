@@ -7,7 +7,7 @@ const DataDetails = ({ data }) => {
     const response = await fetch('/api/data/' + data._id, {
       method: 'DELETE',
     });
-    const json = await response.json();
+    // const json = await response.json();
 
     if (response.ok) {
         window.location.reload()

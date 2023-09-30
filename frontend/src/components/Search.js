@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Details from './Details';
 const Search = () => {
 
-    const nav = useNavigate();
+    // const nav = useNavigate();
     const [searchTerm,setSearchTerm] = useState("");
     const [data,setData] = useState(null);
     const handleSubmit = async (e)=>{
