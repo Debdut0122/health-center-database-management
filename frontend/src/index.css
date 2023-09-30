@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Tangerine|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+
+* {
+  margin: 0;
+  font-family: "Quicksand";
+  color: #333;
+}
+
+.navbar {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    max-width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid #f2f2f2;
+  }
+  
+  .navbar h1 {
+    /* font-family: 'Tangerine'; */
+    font-size: 48px;
+    color: #00b12f;
+  }
+  
+  .navbar .links {
+    margin-left: auto;
+    font-size: larger;
+  }
+   
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    padding: 6px;
+  }
+  .navbar a:hover {
+    color: #e43d00;
+    font-weight: bolder;
+  }
+/* Other styles remain the same */
+/* Other styles remain the same */
+.table-main{
+  display: flex;
+  flex-direction: column;
+}
+.table-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 95%;
+  margin: 0 auto;
+  padding: 0;
+  
+  background-color: #f2f2f2;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.table-content {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  max-width: 95%;
+  margin:0 auto ;
+  background-color: #ffffff;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-bottom: solid #33333318;
+}
+.table-content th{
+  text-wrap:stable;
+  height: 40px;
+}
+.page-counter{
+  display:flex;
+  justify-content:center;
+  align-items: center;
+  font-size: larger;
+}
+.page-counter button{
+  background: #ec3232;
+  color: #fff;
+  font-weight: bolder;
+  font-size: large;
+  border: 0;
+  max-width: 540px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin:10px;
+}
+.material-icons.delete{
+  color: #e43d00;
+}
+.create{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center; */
+}
+.form{
+  display: flex;
+  flex-direction: column;
+  max-width: 540px;
+  /* justify-content: center; */
+  /* padding: 0 auto; */
+  /* margin-left: 100px; */
+}
+.form div{
+  display: block;
+  /* flex-direction:; */
+  max-width: 540px;
+}
+.create input, .create textarea, .create select {
+  width: 100%;
+  padding: 6px 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  display: block;
+}
+.create button {
+  background: #ec3232;
+  color: #fff;
+  font-weight: bolder;
+  font-size: larger;
+  border: 0;
+  max-width: 540px;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin:10px;
+}
+.search{
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  /* justify-content: center;
+  text-align: center; */
+}
